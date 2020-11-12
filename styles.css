@@ -1,0 +1,35 @@
+body {
+    background-color: #E5E5E5;
+    font-family: "Lato", sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+.logo-container h1{
+    float: right;
+}
+
+.logo-container img {
+    float: left;
+    width: 50px;
+}
+
+.login-container {
+    height: 100%;
+    width: 50%;
+    align-items: center;
+    position: fixed;
+    border: solid black 2px;
+}
+
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border: solid black 2px;
+    padding: 50px;
+}
