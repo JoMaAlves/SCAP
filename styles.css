@@ -1,35 +1,82 @@
 body {
-    background-color: #E5E5E5;
+    height: 100%;
+    background-color: #FFFFFF;
     font-family: "Lato", sans-serif;
-}
-
-ul {
-    list-style: none;
-}
-
-.logo-container h1{
-
-}
-
-.logo-container img {
-    float: left;
-    width: 50px;
 }
 
 .login-container {
     height: 100%;
-    width: 50%;
+    width: 40%;
     align-items: center;
     position: fixed;
     border: solid black 2px;
 }
 
 .wrapper {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     text-align: center;
-    border: solid black 2px;
-    padding: 50px;
+    /*border: solid blue 2px;*/
+    margin: 20%;
+}
+
+/* LOGO */
+
+.logo-container {
+    display: inline;
+}
+
+.logo-img {
+    margin-right: 25px;
+}
+.logo{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+/* Mensagem de Bem-vindo */
+h2 {
+    font-size: 24px;
+    color: #0098A6;
+    margin-bottom: 10%;
+}
+
+/* Informações de Login */
+
+#log-items {
+    display: grid;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.log-info {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+    padding-bottom: 5px;
+    color: #616b6d;
+}
+
+.log-txtbx {
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    height: 34px;
+    border-radius: 3px;
+    border: solid #C4c4c4 1.5px;
+    color: #616b6d;
+}
+
+#log-button {
+    font-size: 16px;
+    font-weight: bold;
+    height: 34px;
+    border: none;
+    border-radius: 3px;
+    color: #FFFFFF;
+    background-color: #0098A6;
+}
+
+#fgt-pswd {
+    color: #616b6d;
 }
