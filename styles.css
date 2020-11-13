@@ -5,10 +5,10 @@ body {
 }
 
 .login-container {
-    height: 100%;
-    width: 40%;
     align-items: center;
     position: fixed;
+    height: 100%;
+    width: 40%;
     border: solid black 2px;
 }
 
@@ -35,10 +35,10 @@ body {
 }
 
 /* Mensagem de Bem-vindo */
-h2 {
+h2 {    
+    margin-bottom: 10%;
     font-size: 24px;
     color: #0098A6;
-    margin-bottom: 10%;
 }
 
 /* Informações de Login */
@@ -50,10 +50,10 @@ h2 {
 }
 
 .log-info {
+    padding-bottom: 5px;
     font-size: 14px;
     font-weight: bold;
     text-align: left;
-    padding-bottom: 5px;
     color: #616b6d;
 }
 
