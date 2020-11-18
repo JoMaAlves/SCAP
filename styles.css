@@ -1,8 +1,3 @@
-:root {
-    font-size: 100%;
-    line-height: 1.5;
-}
-
 body {
     padding: 0;
     margin: 0;
@@ -101,7 +96,7 @@ label {
     margin-bottom: 13%;
 }
 
-#line {
+.line {
     height: 1px;
     background-color: #C4C4C4;
 }
