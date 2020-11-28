@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SCAP</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
     <div class="split-screen">
@@ -12,7 +12,7 @@
             <form>
                 <div>
                     <section id="logo">
-                        <img src="images/logo.png" alt="SCAP Logo" class="logo-item">
+                        <img src="{{url_for('static', filename='logo.png')}}" alt="SCAP Logo" class="logo-item">
                         <spam class="logo-item">SCAP</spam>
                     </section>
         

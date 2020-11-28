@@ -4,7 +4,7 @@ body {
     font-family: "Lato", sans-serif;
     font-weight: 500;
     background-color: #F2F7F6;
-    background: url(images/login-background.jpg);
+    background-image: url("images/login-background.jpg");
 }
 
 h1 {
@@ -126,7 +126,7 @@ p {
 
     .image {
         width: 55%;
-        background: url(images/login-background.jpg);
+        background-image: url("images/login-background.jpg");
         background-size: cover;
     }
 
